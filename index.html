@@ -96,7 +96,7 @@
 
 <body>
     <div id="bookTrigger"></div>
-    <div id='prioritasPDF'></div>
+    <div id='showPDF'></div>
 </body>
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
@@ -111,7 +111,7 @@
         }
 
         function buildBook(){
-            var elem = '#prioritasPDF'
+            var elem = '#showPDF'
             var book= $.wowBook(elem);
             if (!book) {
                 $(elem).wowBook(options);
